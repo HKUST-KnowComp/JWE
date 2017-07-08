@@ -1,0 +1,1 @@
+./jwe -train wiki_process.txt -output-word word_vec -output-char char_vec -output-comp comp_vec -size 200 -window 5 -sample 1e-4 -negative 10 -iter 100 -threads 8 -min-count 5 -alpha 0.025 -binary 0 -comp ../subcharacter/comp.txt -char2comp ../subcharacter/char2comp.txt -join-type 1 -pos-type 1 -average-sum 1
