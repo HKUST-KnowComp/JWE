@@ -10,7 +10,7 @@ Following the instractions on the [blog](https://flystarhe.github.io/2016/08/31/
 ## Model Training
 - `cd JWE/src`, compile the code by `make all`. 
 - run `./jwe` for parameters details.
-- run `./run.sh`, you may modify the parameters in file `run.sh`.
+- run `./run.sh` to start the model training, you may modify the parameters in file `run.sh`.
 - Input files format:
 Corpus `wiki.txt` contains segmented Chinese words with UTF-8  encoding;
 Subcharacters `comp.txt` contains a list of components which are seperated by blank spaces; `char2comp.txt`, each line consists of a Chinese character and its components in the following format:
