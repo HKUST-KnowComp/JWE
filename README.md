@@ -13,7 +13,7 @@ Following the instractions on the [blog](https://flystarhe.github.io/2016/08/31/
 - run `./jwe` for parameters details
 - Input files format:
 Corpus `wiki.txt` contains segmented Chinese words, use UTF-8  encoding.
-Subcharacters `comp.txt` contains a list of components which are seperated by blank spaces, `char2comp.txt`, each line consists a Chinese character and its components in the following format:
+Subcharacters `comp.txt` contains a list of components which are seperated by blank spaces, `char2comp.txt`, each line consists of a Chinese character and its components in the following format:
 
 ```
 侩 亻 人 云
