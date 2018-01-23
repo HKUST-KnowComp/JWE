@@ -5,7 +5,7 @@ Source codes of our EMNLP2017 paper [Joint Embeddings of Chinese Words, Characte
 You need to prepare a training corpus and the Chinese subcharacter radicals or components. 
 * Training corpus. Download [Chinese Wikipedia Dump](http://download.wikipedia.com/zhwiki).
 Following the instractions on the [blog](https://flystarhe.github.io/2016/08/31/wiki-corpus-zh/), you can extract the raw content from the xml file and do data preprocessing such as removing pure digits and non Chinese characters. Alternatively, you can download the corpus after preprocessing at the onlibe baidu [box](https://pan.baidu.com/s/1jINyG6q).
-* Subcharacter radicals and components.  Deploy the scrapy codes in `JWE/ChineseCharCrawler` on [Scrapy Cloud](https://scrapinghub.com), you can crawl the resource from [HTTPCN](http://tool.httpcn.com/zi/). We provide a copy of the data in `./subcharacters` for reserach convenience. The copyright and all rights therein of the subcharacter data are reserved by the website [HTTPCN](http://tool.httpcn.com/zi/). All persons using this data are expected to adhere to the terms and constraints invoked by the copyright holder.
+* Subcharacter radicals and components.  Deploy the scrapy codes in `JWE/ChineseCharCrawler` on [Scrapy Cloud](https://scrapinghub.com), you can crawl the resource from [HTTPCN](http://tool.httpcn.com/zi/). We provide a copy of the data in `./subcharacters` for reserach convenience. The copyright and all rights therein of the subcharacter data, if any, are reserved by the website [HTTPCN](http://tool.httpcn.com/zi/). All persons using this data are expected to adhere to the terms and constraints invoked by the copyright holder.
 
 ## Model Training
 - `cd JWE/src`, compile the code by `make all`. 
